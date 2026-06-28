@@ -1,4 +1,5 @@
-# C# & .NET Framework
+# IMP Questions
+## C# & .NET Framework
 
 1. Define Common Language Runtime (CLR). (2024, 2025)
 2. Differentiate between C# and C++. (2024)
@@ -31,7 +32,9 @@
 29. Explain any 5 Hashtable methods in C#. (2025)
 30. Write a C# program to count alphabets, digits and special symbols in a string. (2025)
 
-# PHP & MySQL
+---
+
+## PHP & MySQL
 
 1. Write a simple PHP script to display "Hello World". (2024)
 2. Differentiate between == and === operators in PHP. (2024)
@@ -57,7 +60,9 @@
 22. Explain the structure of a typical Laravel application. (2024)
 23. Create a Student table and fetch records where Last Name is 'Doe'. (2024)
 
-# Software Engineering
+---
+
+## Software Engineering
 
 1. Define Software Engineering. (2024, 2025)
 2. What is SRS? (2024)
@@ -92,7 +97,9 @@
 31. Explain Data Flow Model of Insulin Pump. (2025)
 32. Explain Mobile Interface Design Principles. (2024)
 
-# Artificial Intelligence and Applications
+---
+
+## Artificial Intelligence and Applications
 
 1. Define Artificial Intelligence. (2025)
 2. List AI Tasks with examples. (2024)
@@ -125,7 +132,9 @@
 29. Write short notes on Semantic Nets. (2025)
 30. Write short notes on Frames. (2025)
 
-# Statistical Computing and R Programming
+---
+
+## Statistical Computing and R Programming
 
 1. List the basic data types in R. (2024)
 2. Define List in R with example. (2024)
@@ -162,7 +171,9 @@
 33. Explain Reading and Writing Files in R. (2025)
 34. Explain Poisson Distribution. (2025)
 
-# Web Content Management System
+---
+
+## Web Content Management System
 
 1. Define Web Content Management System (WCMS). (2024, 2025)
 2. Define Editing. (2024)
