@@ -3,7 +3,7 @@
 ## **Defining Software**
 "Software is a collection of computer programs, procedures, documentation, and related data that instruct a computer to perform specific tasks."
 
-**Components of Software:**
+### Components of Software
 1. Programs (source code)
     - A set of instructions that tells the computer what to do.
     - Written using programming languages such as C, Java, or Python.
@@ -18,7 +18,7 @@
 - System Software e.g. Microsoft Windows, Linux , Android etc.
 - Application Software e.g. Google Chrome, Microsoft Word etc.
 
-**Characteristics of Software:**
+### Characteristics of Software
 - Developed, not manufactured.
 - Does not wear out like hardware.
 - Can be modified and updated.
@@ -28,7 +28,7 @@
 
 ---
 
-## **Software Application Domains**
+### **Software Application Domains**
 Refer to the various fields or are in which software is developed and used to perform specific tasks.
 
 **Types of Software Application Domains :** 
@@ -57,7 +57,7 @@ Refer to the various fields or are in which software is developed and used to pe
 
 ---
 
-## Software Engineering Layers
+### Software Engineering Layers
 Software Engineering Layers provide a structured framework for software development.
 
 **Diagram** 
@@ -96,7 +96,7 @@ Example :
 
 ---
 
-## Software Myths
+### Software Myths
 Software Myths are false beliefs or misconceptions about software development that can lead to unrealistic expectations, poor decisions, and project failures.
 
 1. **Customer Myths**
@@ -329,3 +329,9 @@ Applications
 | Customer involvement is low      | Customer involvement is high            |
 | Testing after coding             | Testing in every increment              |
 | Suitable for small projects      | Suitable for medium and large projects  |
+
+---
+Back to : [[SE Syllabus]]
+
+---
+Go to next : [[Unit 2 - Software Requirement]]
