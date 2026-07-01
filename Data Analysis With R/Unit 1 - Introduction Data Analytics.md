@@ -301,9 +301,3 @@ Applications of Data Analytics refer to the various fields and industries where 
     - Develops game strategies.
     - Prevents injuries.
     - Example: Performance analysis of cricket players.
-
----
-Back to : [[R Syllabus]]
-
----
-Go to :  [[Unit 2 - R Programing]]

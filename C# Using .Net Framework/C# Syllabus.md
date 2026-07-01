@@ -1,4 +1,4 @@
-# Syllabus 
+# C# Syllabus 
 
 ## UNIT I 
 C# Language fundamentals: Introducing the Building Blocks of the .NET Platform(CLR, CTS and CLS). Anatomy of C# program. The System. Environment Class. The System. Console Class, Understanding Value Types and Reference Types, The System Data types, Operators, Decision Constructs, Iteration Constructors, The System.String data types, String Builder, .NET Array Types, Defining Classes and Creating objects, Pillars of OOP, C#'s Inheritance Support, C#'s Polymorphic Support, Understanding C# Partial types, Understanding Boxing and Unboxing Operations. 

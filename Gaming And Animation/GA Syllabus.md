@@ -1,4 +1,4 @@
-# Syllabus 
+# GA Syllabus 
 ## UNIT I 
 Introduction: What is an Animation?, HTML5 – SVG ,Viewing SVG Files , SVG Circle , Rectangle, SVG Line SVG Ellipse ,SVG Polygon ,SVG Polyline ,SVG Gradients SVG StarThe Start and End States , Interpolation , Animations in HTML, All About CSS Animations, Creating a Simple Animation ,CSS Animation Property , Reusing Keyframes , Declaring Multiple Animations, Wrap-up, All About CSS Transitions, Adding a Transition ,Looking at Transitions in Detail , The Longhand Properties , Longhand Properties vs. Shorthand Properties, Working with Multiple Transitions, The transition End Even 
 

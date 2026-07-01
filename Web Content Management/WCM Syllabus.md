@@ -1,4 +1,4 @@
-# Syllabus 
+# WCM Syllabus 
 ## UNIT I 
 Web Content Development and Management: Content Types and Formats, Norms and Guidelines of Content Development, Creating Digital Graphics, Audio Production and Editing 
 

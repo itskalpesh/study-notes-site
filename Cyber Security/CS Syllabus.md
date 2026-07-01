@@ -1,4 +1,4 @@
-# Syllabus 
+# CS Syllabus 
 
 ## UNIT I 
 Introduction to Cybercrime: Cybercrime definition and origins of the world, Cybercrime and information security, Classifications of cybercrime.

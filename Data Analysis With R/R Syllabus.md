@@ -1,10 +1,10 @@
-# Syllabus 
-## UNIT I 
+# R Syllabus 
+[[Unit 1 - Introduction Data Analytics]]
 Introduction to Data Analytics : Overview of Data Analytics, Need of Data Analytics, Nature of Data, Classification of Data: Structured, Semi-Structured, Unstructured, Characteristics of Data, Applications of Data Analytics. 
 
 ---
 
-## UNIT II 
+[[Unit 2 - R Programing]]
 R Programming Structures: Overview of R programming, Variables and Data Types, Operators. Control Statements, Looping, Vectors, Arrays, Matrices, List and Data Frames. User defined Functions. Built in Functions: Math Functions, Statistical functions, String functions. 
 
 ---

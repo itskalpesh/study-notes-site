@@ -1,4 +1,4 @@
-# Syllabus 
+# FSD Syllabus 
 ## UNIT I 
 Fundamentals of PHP and Web Development: Introduction to Web Development (Frontend, Backend, Full-Stack), Understanding Client-Server Architecture & HTTP Protocol, Setting up Local Server (XAMPP, WAMP, LAMP), Basics of PHP: Syntax, Variables, Data Types, Control Structures (if-else, switch, loops), Functions in PHP (User-defined , String & Math Built-in) 
 

@@ -414,7 +414,3 @@ Output
 
 ---
 ### Vectors in R
-
-
----
-Back to : [[Unit 1 - Introduction Data Analytics]]
