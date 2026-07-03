@@ -13,31 +13,13 @@ Key Points :
 > What is Data Analytics 
 > Data Analytics is a systematic process of transforming raw data into useful information. It involves collecting data from different sources, cleaning and organizing it, analyzing it using statistical and computational techniques, and presenting the results in an understandable form such as reports, charts, or graphs.
 
----
-### Data Analytics Process 
 
-```shell
-Raw Data
-     │
-     ▼
-Data Collection
-     │
-     ▼
-Data Cleaning
-     │
-     ▼
-Data Analysis
-     │
-     ▼
-Data Visualization
-     │
-     ▼
-Decision Making
-```
+
+
 
 --- 
 
-### Objectives of Data Analytics
+### Objectives / Features of Data Analytics
 
 - Improve business decisions.
 - Find hidden patterns.
@@ -84,35 +66,101 @@ Decision Making
 ### Nature (Features) of Data
 Nature of Data refers to the type, form, and characteristics of data. It describes how data is collected, organized, stored, and used for analysis
 
-1. Data can be Qualitative or Quantitative
-    - Qualitative Data: Describes qualities or categories.
-    - Example: Gender, Color, City
-    - Quantitative Data: Represents numerical values.
-    - Example: Age, Height, Salary
+```
+Nature of Data
+│
+├── By Structural Format
+│   ├── Structured
+│   ├── Unstructured
+│   └── Semi-Structured
+│
+├── By Levels of Measurement
+│   ├── Nominal
+│   ├── Ordinal
+│   ├── Interval
+│   └── Ratio
+│
+├── By Continuity
+│   ├── Discrete
+│   └── Continuous
+│
+└── By Origin or Source
+    ├── Primary
+    └── Secondary
+```
 
-2. Data can be Structured or Unstructured
-    - Structured data is organized in rows and columns.
-    - Unstructured data includes text, images, videos, and audio.
+---
 
-3. Data is Dynamic
-    - Data changes continuously over time.
-    - Example: Daily weather reports, stock market prices.
+### Classification of Nature of Data
+Classification of Data is the process of organizing data into different categories based on its structure and format. It helps in storing, managing, and analyzing data efficiently
 
-4. Data is Valuable
-    - Data helps organizations make informed decisions.
-    - It is considered a valuable asset.
+1. By Structural Format
+   a) Structured Data
+    - Follows a predefined / fixed format.
+    - Organized in rows and columns.
+    - Easy to store and analyze.
+    - Stored in databases.
+    - Examples: Student records, Bank transactions, Employee details
 
-5. Data is Generated from Multiple Sources
-    - Social media
-    - Websites
-    - Mobile applications
-    - Sensors
-    - Business transactions
-    - Databases
+   b) Unstructured Data
+   - Does not have a predefined / fixed format.
+   - Difficult to analyze directly.
+   - Large volume.
+   - Requires advanced tools for processing
+   - Examples: Images, Videos, Audio files, Social media posts
 
-6. Data Requires Processing
-    - Raw data has little value.
-    - It must be cleaned, organized, and analyzed to become useful information.
+   c) Semi-Structured Data
+   - Partially organized.
+   - Contains tags or labels but not fixed tables.
+   - Flexible structure.
+   - Easier to manage than unstructured data.
+   - Uses tags or key-value pairs.
+   - Examples: XML files, JSON files, HTML documents
+
+---
+
+2. By Levels of Measurement
+   a) Nominal Data
+    - Used only for naming or labeling.
+    - No order exists.
+    - Examples: Gender, Blood group, City names
+
+   b) Ordinal Data
+    - Data has an order or ranking.
+    - Difference between ranks is not fixed.
+    - Examples: Class rank, Satisfaction level (Poor, Good, Excellent)
+
+   c) Interval Data
+    - Equal intervals between values.
+    - No true zero.
+    - Examples: Temperature (°C, °F), Calendar years
+
+   d) Ratio Data
+    - Equal intervals and a true zero.
+    - All mathematical operations are possible.
+    - Examples: Height, Weight, Age, Income
+
+---
+3. By Continuity
+   a) Discrete Data
+    - Countable values.
+    - Usually whole numbers.
+    - Examples: Number of students, Number of cars, Number of books
+
+   b) Continuous Data
+    - Can take any value within a range.
+    - Measured rather than counted.
+    - Examples: Height, Weight, Temperature, Time
+
+---
+4. By Origin or Source
+   a) Primary Data
+    - Collected directly by the researcher for  a specific purpose.
+    - Examples: Surveys, Interviews, Experiments, Questionnaires
+
+   b) Secondary Data
+    - Collected by someone else and reused.
+    - Examples: Government reports, Research papers, Census data, Books and websites
 
 ---
 ### Importance of Understanding the Nature of Data
@@ -120,70 +168,7 @@ Nature of Data refers to the type, form, and characteristics of data. It describ
 - Helps choose the correct analysis method.
 - Improves data quality.
 - Makes analysis more accurate.
-- Supports better decision-making.
-
----
-### Classification of Data
-Classification of Data is the process of organizing data into different categories based on its structure and format. It helps in storing, managing, and analyzing data efficiently
-
-```shell
-               Data
-                 │
-     ┌───────────┼───────────┐
-     │           │           │
-Structured   Semi-Structured Unstructured
-     │           │           │
- Tables      XML, JSON   Images, Videos
-```
-
-Data is mainly classified into three types:
- 1. Structured Data
-    Structured Data is data that is organized in a fixed format, usually in rows and columns. It is easy to store, search, and analyze using databases.
-    
-    Characteristics : 
-    - Organized in rows and columns.
-    - Stored in relational databases.
-    - Easy to search and analyze.
-    - Follows a predefined schema.
-
-    Examples
-    - Student records
-    - Employee database
-    - Bank transactions
-    - Sales records
-
----
-2. Semi-Structured Data
-    Semi-Structured Data is data that does not follow a strict table format but contains tags, labels, or metadata to organize the information.
-
-    Characteristics
-    - Partially organized.
-    - Flexible structure.
-    - Easier to manage than unstructured data.
-    - Uses tags or key-value pairs.
-
-    Examples
-    - XML files
-    - JSON files
-    - HTML documents
-    - Email messages
-
----
-3. Unstructured Data
-    Unstructured Data is data that has no fixed format or predefined structure. It is difficult to store and analyze using traditional databases.
-
-    Characteristics
-    - No predefined format.
-    - Large volume.
-    - Difficult to analyze.
-    - Requires advanced tools for processing.
-
-    Examples
-    - Images
-    - Videos
-    - Audio files
-    - Social media posts
-    - PDF documents
+- Supports better decision-making. 
 
 ---
 ### Comparison Table 
@@ -301,3 +286,34 @@ Applications of Data Analytics refer to the various fields and industries where 
     - Develops game strategies.
     - Prevents injuries.
     - Example: Performance analysis of cricket players.
+
+11. Cyber Security 🔒
+- Detects cyber attacks and unusual network activities to improve security
+
+12. Energy ⚡
+- Predicts electricity demand and reduces power wastage.
+
+13. Transportation 🚗
+- Finds the shortest route and predicts traffic congestion.
+
+14. Social Media 📱
+- Suggests friends, videos, and posts based on user activity.
+
+15. Weather Forecasting 🌦️
+- Analyzes weather data to predict future weather conditions.
+
+16. Sports ⚽
+- Evaluates player performance and helps plan game strategies.
+
+17. Retail Stores 🏬
+- Analyzes sales data to manage inventory and increase profits.
+
+18. Telecommunication 📞
+- Monitors network performance and predicts service failures.
+
+19. Tourism ✈️
+- Recommends travel destinations and predicts tourist demand.
+
+
+20. Entertainment 🎬
+- Suggests movies, songs, and TV shows based on user preferences

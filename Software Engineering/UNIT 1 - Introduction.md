@@ -27,7 +27,17 @@
 - Requires regular maintenance. 
 
 ---
+### Software Engineering 
+Software engineering is application of engineering principals to design, build, test, deploy, and maintain the software.
 
+#### Software Engineering Process
+- Requirement Gathering – Collect and analyze user needs.
+- System Design – Create the architecture and design of the software.
+- Implementation (Coding) – Write the program according to the design.
+- Testing – Find and fix errors to ensure the software works correctly.
+- Deployment – Release the software for users.
+- Maintenance – Update, improve, and fix the software after deployment.
+---
 ### **Software Application Domains**
 Refer to the various fields or are in which software is developed and used to perform specific tasks.
 
