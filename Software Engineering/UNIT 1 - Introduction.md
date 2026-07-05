@@ -38,7 +38,7 @@ Software engineering is application of engineering principals to design, build, 
 - Deployment – Release the software for users.
 - Maintenance – Update, improve, and fix the software after deployment.
 ---
-### **Software Application Domains**
+### Software Application Domains
 Refer to the various fields or are in which software is developed and used to perform specific tasks.
 
 **Types of Software Application Domains :** 
