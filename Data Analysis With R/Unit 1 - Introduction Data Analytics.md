@@ -14,72 +14,72 @@ Key Points :
 ### Need (Importance) of Data Analytics
 
 1. Better Decision Making
-- Helps organizations make data-driven decisions instead of relying on guesses.
-- Reduces risk and improves accuracy.
-- Example: A supermarket analyzes sales data to decide which products to stock.
+    - Helps organizations make data-driven decisions instead of relying on guesses.
+    - Reduces risk and improves accuracy.
+    - Example: A supermarket analyzes sales data to decide which products to stock.
 
 2. Problem Solving
-- Identifies the root cause of problems.
-- Helps find effective solutions using data.
-- Example: A company analyzes customer complaints to improve product quality.
+    - Identifies the root cause of problems.
+    - Helps find effective solutions using data.
+    - Example: A company analyzes customer complaints to improve product quality.
 
 3. Identifying Opportunities
-- Discovers new business opportunities and market trends.
-- Helps identify customer needs and new revenue sources.
-- Example: An e-commerce company recommends products based on customer buying patterns.
+    - Discovers new business opportunities and market trends.
+    - Helps identify customer needs and new revenue sources.
+    - Example: An e-commerce company recommends products based on customer buying patterns.
 
 4. Improve Efficiency
-- Optimizes business processes and reduces waste.
-- Saves time, cost, and resources.
-- Example: A delivery company uses route analysis to reduce fuel consumption and delivery time.
+    - Optimizes business processes and reduces waste.
+    - Saves time, cost, and resources.
+    - Example: A delivery company uses route analysis to reduce fuel consumption and delivery time.
 
 5. Predict Future Trends
-- Uses historical data to forecast future demand and customer behavior.
-- Helps in planning and decision-making.
-- Example: A retail store predicts festive season demand and stocks products accordingly.
+    - Uses historical data to forecast future demand and customer behavior.
+    - Helps in planning and decision-making.
+    - Example: A retail store predicts festive season demand and stocks products accordingly.
 
 6. Gain Competitive Advantage
-- Helps organizations stay ahead of competitors by making faster and smarter decisions.
-- Improves customer satisfaction and business growth.
-- Example: Streaming platforms recommend personalized content based on user preferences.
+    - Helps organizations stay ahead of competitors by making faster and smarter decisions.
+    - Improves customer satisfaction and business growth.
+    - Example: Streaming platforms recommend personalized content based on user preferences.
 
 ---
 ### Objectives / Features of Data Analytics:
 1. Data Processing 
-- cleaning, organizing, and transforming raw data into
-- Removes errors, duplicates, and missing values.
-- Improves data quality and accuracy.
-- Example: A bank removes duplicate customer records before generating reports.
+    - cleaning, organizing, and transforming raw data into
+    - Removes errors, duplicates, and missing values.
+    - Improves data quality and accuracy.
+    - Example: A bank removes duplicate customer records before generating reports.
 
 2. Data Visualization 
-- Presents data using charts, graphs, dashboards, and reports.
-- Makes complex information easy to understand.
-- Improves decision-making.
-- Example: A sales manager uses a bar chart to compare monthly sales.
+    - Presents data using charts, graphs,  dashboards, and reports.
+    - Makes complex information easy to understand.
+    - Improves decision-making.
+    - Example: A sales manager uses a bar chart to compare monthly sales.
 
 3. Pattern and Trend Identification 
-- Identifies hidden patterns, relationships, and trends in data.
-- Helps understand customer behavior and business performance.
-- Supports business planning.
-- Example: An online shopping website recommends products based on previous purchases.
+    - Identifies hidden patterns, relationships, and trends in data.
+    - Helps understand customer behavior and business performance.
+    - Supports business planning.
+    - Example: An online shopping website recommends products based on previous purchases.
 
 4. Prediction Analysis 
-- Uses historical data to predict future outcomes.
-- Supports forecasting and planning.
-- Helps reduce business risks.
-- Example: A retail store predicts product demand during festivals using past sales data.
+    - Uses historical data to predict future outcomes.
+    - Supports forecasting and planning.
+    - Helps reduce business risks.
+    - Example: A retail store predicts product demand during festivals using past sales data.
 
 5. Better decision making 
-- Provides accurate insights for data-driven decisions.
-- Reduces uncertainty and business risks.
-- Supports business growth.
-- Example: A company analyzes customer feedback before launching a new product. 
+    - Provides accurate insights for data-driven decisions.
+    - Reduces uncertainty and business risks.
+    - Supports business growth.
+    - Example: A company analyzes customer feedback before launching a new product. 
 
 6. Real-Time analysis 
- - Analyzes data as it is generated.
- - Enables quick responses to changing situations
- - Detects problems immediately.
- - Example: A fraud detection system instantly identifies suspicious credit card transactions.
+      - Analyzes data as it is generated.
+      - Enables quick responses to changing situations
+      - Detects problems immediately.
+      - Example: A fraud detection system instantly identifies suspicious credit card transactions.
 
 ---
 ### Nature (Features) of Data
@@ -122,19 +122,19 @@ Classification of Data is the process of organizing data into different categori
     - Examples: Student records, Bank transactions, Employee details
 
    b) Unstructured Data
-   - Does not have a predefined / fixed format.
-   - Difficult to analyze directly.
-   - Large volume.
-   - Requires advanced tools for processing
-   - Examples: Images, Videos, Audio files, Social media posts
+    - Does not have a predefined / fixed format.
+    - Difficult to analyze directly.
+    - Large volume.
+    - Requires advanced tools for processing
+    - Examples: Images, Videos, Audio files, Social media posts
 
    c) Semi-Structured Data
-   - Partially organized.
-   - Contains tags or labels but not fixed tables.
-   - Flexible structure.
-   - Easier to manage than unstructured data.
-   - Uses tags or key-value pairs.
-   - Examples: XML files, JSON files, HTML documents
+     - Partially organized.
+     - Contains tags or labels but not fixed tables.
+     - Flexible structure.
+     - Easier to manage than unstructured data.
+     - Uses tags or key-value pairs.
+     - Examples: XML files, JSON files, HTML documents
 
 ---
 
@@ -192,39 +192,39 @@ Classification of Data is the process of organizing data into different categori
 ---
 ### Characterstis of Data ( 5Vs)
 1. Volume 
-- The sheer scale and amount of data generated & stored.
-- Huge quantity of data is produced daily 
-- Measured in GB, TB, PB, etc.
-- Requires powerful storage and processing systems.
-- Example: Facebook stores billions of photos and videos uploaded by users.
+    - The sheer scale and amount of data generated & stored.
+    - Huge quantity of data is produced daily 
+    - Measured in GB, TB, PB, etc.
+    - Requires powerful storage and processing systems.
+    - Example: Facebook stores billions of photos and videos uploaded by users.
 
 2. Velocity 
-- The speed at which data is generated, processed, and analyzed.
-- Data is generated continuously.
-- Real-time processing is often required.
-- Enables quick decision-making.
-- Example: UPI transactions are processed instantly in real time.
+    - The speed at which data is generated, processed, and analyzed.
+    - Data is generated continuously.
+    - Real-time processing is often required.
+    - Enables quick decision-making.
+    - Example: UPI transactions are processed instantly in real time.
 
 3. Variety 
-- The different types and formats of data.
-- Includes structured, semi-structured, and unstructured data.
-- Comes from multiple sources.
-- Helps provide complete insights.
-- Example: An e-commerce website analyzes customer reviews (text), product images, and sales records.
+    - The different types and formats of data.
+    - Includes structured, semi-structured, and unstructured data.
+    - Comes from multiple sources.
+    - Helps provide complete insights.
+    - Example: An e-commerce website analyzes customer reviews (text), product images, and sales records.
 
 4. Veracity 
-- The accuracy, quality, and reliability of data.
-- Ensures data is correct and trustworthy.
-- Removes errors and duplicate records.
-- Improves analysis accuracy.
-- Example: A hospital verifies patient records before diagnosis.
+    - The accuracy, quality, and reliability of data.
+    - Ensures data is correct and trustworthy.
+    - Removes errors and duplicate records.
+    - Improves analysis accuracy.
+    - Example: A hospital verifies patient records before diagnosis.
 
 5. Value 
-- the usefulness of data in generating meaningful insights.
-- Converts data into valuable information.
-- Supports business growth.
-- Improves decision-making.
-- Example: Netflix analyzes viewing history to recommend movies and shows.
+    - the usefulness of data in generating meaningful insights.
+    - Converts data into valuable information.
+    - Supports business growth.
+    - Improves decision-making.
+    - Example: Netflix analyzes viewing history to recommend movies and shows.
 
 ---
 ### Applications of Data Analytics
