@@ -114,6 +114,7 @@ Nature of Data
 Classification of Data is the process of organizing data into different categories based on its structure and format. It helps in storing, managing, and analyzing data efficiently
 
 1. By Structural Format
+
    a) Structured Data
     - Follows a predefined / fixed format.
     - Organized in rows and columns.
@@ -139,6 +140,7 @@ Classification of Data is the process of organizing data into different categori
 ---
 
 2. By Levels of Measurement
+
    a) Nominal Data
     - Used only for naming or labeling.
     - No order exists.
@@ -161,6 +163,7 @@ Classification of Data is the process of organizing data into different categori
 
 ---
 3. By Continuity
+
    a) Discrete Data
     - Countable values.
     - Usually whole numbers.
@@ -173,6 +176,7 @@ Classification of Data is the process of organizing data into different categori
 
 ---
 4. By Origin or Source
+
    a) Primary Data
     - Collected directly by the researcher for  a specific purpose.
     - Examples: Surveys, Interviews, Experiments, Questionnaires
@@ -230,7 +234,8 @@ Classification of Data is the process of organizing data into different categori
 ### Applications of Data Analytics
 Applications of Data Analytics refer to the various fields and industries where data is analyzed to gain insights, improve decision-making, solve problems, and increase efficiency.
 
- 1. Healthcare
+ 1. Healthcare 
+
     a) Prediction & Diagnosis
     - Predicts diseases at an early stage.
     - Helps doctors make accurate diagnoses.
@@ -243,7 +248,8 @@ Applications of Data Analytics refer to the various fields and industries where 
     - Improves hospital efficiency.
     - Example: Hospitals analyze patient data to schedule doctors and beds.
 
-2. Banking & Finance
+3. Banking & Finance
+
     a) Fraud Detection
     - Detects suspicious transactions.
     - Prevents financial fraud.
@@ -256,7 +262,8 @@ Applications of Data Analytics refer to the various fields and industries where 
     - Reduces financial losses.
     - Example: Banks analyze credit scores before approving loans.
 
-3. Retail & E-commerce
+4. Retail & E-commerce
+
     a) Personalized Marketing
     - Recommends products based on customer interests.
     - Increases customer satisfaction.
@@ -269,7 +276,8 @@ Applications of Data Analytics refer to the various fields and industries where 
     - Reduces delivery delays.
     - Example: A supermarket stocks more products before festivals.
 
-4. Logistics
+5. Logistics
+
     a) Delivery Routing
     - Finds the shortest and fastest delivery route.
     - Saves fuel and time.
@@ -282,7 +290,8 @@ Applications of Data Analytics refer to the various fields and industries where 
     - Prevents unexpected breakdowns.
     - Example: A transport company services trucks before a breakdown occurs.
 
-5. Media & Entertainment
+6. Media & Entertainment
+
     a) Content Recommendation
     - Recommends movies, songs, or videos based on user preferences.
     - Improves user experience.
