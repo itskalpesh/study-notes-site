@@ -117,11 +117,10 @@ Software Engineering Layers provide a structured framework for software developm
 4. Tools Layer
     -  Provides automated or semi-automated support for the process and methods.
     - Helps improve productivity and accuracy.
-
-Example : 
-- IDEs ( Integrated )
-- Testing Tools
-- Version Control Tools
+    - Example : 
+          - IDEs ( Integrated )
+          - Testing Tools
+          - Version Control Tools
 
 ---
 
