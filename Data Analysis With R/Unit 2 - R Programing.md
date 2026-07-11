@@ -10,14 +10,42 @@ R is a programming language and software environment used for data analysis, sta
 
 ---
 ### Features of R Programming
-1. Open-source and free to use.
-2. Easy to learn and use.
-3. Supports statistical analysis.
-4. Creates high-quality graphs and charts.
-5. Works on Windows, Linux, and macOS.
-6. Supports large datasets.
-7. Has thousands of additional packages.
-8. Widely used in data science and machine learning.
+
+ **1. Open Source and Free**
+- R is free to download and use.
+- Its source code is publicly available, so anyone can modify and improve it.
+
+ **2. Cross-Platform**
+- R works on multiple operating systems such as **Windows, Linux, and macOS**.
+- The same R program can run on different platforms without major changes.
+
+**3. Rich Package Support**
+- R provides thousands of packages through **CRAN (Comprehensive R Archive Network)**.
+- These packages add extra features for statistics, data analysis, visualization, and machine learning.
+
+**4. Community Support**
+- R has a large community of developers, researchers, and data scientists.
+- Users can easily get help through online forums, tutorials, and documentation.
+
+ **5. Excellent Data Visualization**
+- R creates high-quality graphs and charts for presenting data visually.
+- It supports **Histograms, Bar Charts, Line Graphs, Pie Charts, Boxplots, and Scatterplots**.
+
+**6. Dynamically Typed**
+- R is a **dynamically typed** language, which means the data type of a variable is assigned automatically during program execution.
+- There is no need to declare the data type explicitly.
+
+**7. Interpreted Language**
+- R is an interpreted language, meaning it executes code **line by line** without compilation.
+- This makes testing and debugging easier.
+
+**8. Powerful Statistical Analysis**
+- R provides many built-in statistical functions.
+- It supports techniques such as **Mean, Median, Standard Deviation, t-test, ANOVA, Regression,** and **Time Series Analysis**.
+
+**9. Easy Data Handling**
+- R makes it easy to import, clean, transform, analyze, and export data.
+- It supports data from **CSV, Excel, JSON, XML, databases, and web sources**.
 
 ---
 ### Applications of R Programming
@@ -43,42 +71,88 @@ R is a programming language and software environment used for data analysis, sta
 A variable is a named memory location used to store data. The value of a variable can be changed during program execution
 
 ### Creating Variables in R
-In R, variables are created using the assignment operator <- or =.
+In R, values can be assigned to variables using four ways.
 
-Syntax 
+1. Assignment 
+    - assign value to variable.
+    - similar to assignment in many other programing language.
 ```R
-variable_name <- value
-```
-Or
-```R
-variable_name = value
+X = 10  
 ```
 
-Example 
+ 2. Left Assignment 
+    - The most commonly used assignment Operator in R.
+    - Assign the value from righ to left.
 ```R
-x <- 10
-name <- "Rahul"
-marks <- 85.5
+X <- 100
 ```
 
+3. Right Assignment 
+    - Assigns the value from left to right.
+```R
+100 -> x
+```
+
+4. Global Assignment 
+    - Assign a value to a global variable, even when used inside a function.
+    - Mainly used in advanced R programing.
+```R
+x <<- 100
+```
+
+5. assign( ) Function 
+    - A build in function used to assign a value to a variable dynamically using its name as string.
+```R
+assign("age",23)
+```
+
+---
 ### Rules for Naming Variables
-- Variable names can contain letters, numbers, dots (.), and underscores (_).
-- A variable name must start with a letter or a dot (.).
-- It cannot start with a number.
-- Variable names are case-sensitive (age and Age are different).
-- Avoid using reserved keywords as variable names
+1. Variable names can contain letters, numbers, dots (.), and underscores (_).
+```R
+_name <- "ram"
+marks1 <- 85
+Total.marks <- 450
+```
 
+2. A variable name must start with a letter or a dot (.).
+```R
+.name <- "R". #valid
+age <- 20 #valid
+2age <- 23 #invalid
+
+```
+
+3. It cannot contain space or special characters.
+```R
+S name <- "R" #invalid
+M@rks <- 10 #invalid
+```
+
+4. Variable names are case-sensitive.
+```R
+age <- 20
+Age <- 23
+```
+ 
+ 5. Avoid using reserved keywords as variable names
+```R
+#invalid
+if, else, for, while, repeat, function
+```
+ 
 ---
 ### Data Types in R
 Data types specify the type of data that a variable can store.
 
-| Data Type | Description                                  | Example              |
-| --------- | -------------------------------------------- | -------------------- |
-| Numeric   | Stores integer and decimal numbers.          | x <- 25<br>y <- 45.8 |
-| Integer   | Stores whole numbers.                        | age <- 20L           |
-| Character | Stores text or strings.                      | name <- "Ramesh"     |
-| Logical   | Stores Boolean values. Values: TRUE or FALSE | result <- TRUE       |
-| Complex   | Stores complex numbers.                      | z <- 3 + 2i          |
+| Data Type | Description                                                        | Example                        |
+| --------- | ------------------------------------------------------------------ | ------------------------------ |
+| Numeric   | Stores integer and decimal numbers.                                | x <- 25<br>y <- 45.8           |
+| Integer   | Stores whole numbers. Values are written with suffix L.            | age <- 20L                     |
+| Character | Stores text or strings. Which enclosed in single or double quotes. | name <- "Ramesh"               |
+| Logical   | Stores Boolean values. Values: TRUE or FALSE                       | result <- TRUE                 |
+| Complex   | Stores complex numbers. Which contains real & imaginary part.      | z <- 3 + 2i                    |
+| Date      | Used to represent dates in format YYYY-MM-DD                       | today <- as.Date("2006-08-26") |
 
 ---
 ### Operators in R
@@ -144,25 +218,25 @@ These operators assign values to variables.
 #### 5. Miscellaneous Operators
 These operators perform special tasks.
 
-| Operators | Meaning                     | Example         |
-| --------- | --------------------------- | --------------- |
-| :         | Creates a sequence          | 1:5 → 1 2 3 4 5 |
-| %in%      | Checks membership           | 2 %in% c(1,2,3) |
-| $         | Accesses data frame columns | student$name    |
+| Operators | Meaning                     | Example                                                                           |
+| --------- | --------------------------- | --------------------------------------------------------------------------------- |
+| :         | Creates a sequence          | 1:5 → 1 2 3 4 5                                                                   |
+| %in%      | Checks membership           | 2 %in% c(1,2,3)                                                                   |
+| $         | Accesses data frame columns | student$name                                                                      |
+| %*%       | Matrix Operator             | A <- matrix(c(1,2,3,4), nrow=2)<br>B <- matrix(c(5,6,7,8), nrow=2)<br><br>A %*% B |
 
 ---
 ### Control Statements in R
 Control statements are used to control the execution of a program based on conditions.
 
-```shell
 Types of Control Statements in R
- 1. if Statement
- 2. if...else Statement
- 3. if...else if...else Statement
- 4. switch Statement
-```
+- Conditional (Decision-Making) Statements
+- Looping (Iteration) Statements
+- Loop Control (Jump) Statements
 
-#### 1. if Statement
+---
+#### Conditional Statements (Decision-Making)
+##### 1. if Statement
 The if statement executes a block of code only if the given condition is TRUE.
 
 Syntax
@@ -182,7 +256,7 @@ if (age >= 18) {
 ```
 
 ---
-#### 2. if...else Statement
+##### 2. if...else Statement
 The if...else statement executes one block of code if the condition is TRUE, and another block if it is FALSE.
 
 Syntax 
@@ -206,7 +280,7 @@ if (marks >= 35) {
 ```
 
 ---
-#### 3. if...else if...else Statement
+##### 3. if...else if...else Statement
 This statement is used to test multiple conditions. The first condition that is TRUE is executed.
 
 Syntax 
@@ -234,7 +308,7 @@ if (marks >= 90) {
 ```
 
 ---
-#### 4. switch Statement
+##### 4. switch Statement
 The switch statement selects and executes one block of code from multiple options based on the given expression.
 
 Syntax 
@@ -256,7 +330,34 @@ switch(day,
 ```
 
 ---
-### Looping Statements in R
+##### 5. ifelse() Function 
+ifelse() is a function used to return one value when a condition is TRUE and another value when it is FALSE
+
+Syntax 
+```shell
+ifelse(condition, value_if_true, value_if_false)
+```
+
+Example 
+```R
+marks <- 40
+
+result <- ifelse(marks >= 35, "Pass", "Fail")
+print(result)
+```
+
+---
+#### Difference b/w if-else statement &  ifelse( ) function
+
+| if-else statement               | ifelse( ) function                   |
+| ------------------------------- | ------------------------------------ |
+| Statement                       | Function                             |
+| Used for single conditions      | Works with single values and vectors |
+| Can execute multiple statements | Returns a value only                 |
+| Suitable for complex logic      | Suitable for simple conditions       |
+
+---
+#### Looping Statements in R (Iteration)
 Looping statements are used to execute a block of code repeatedly until a specified condition is met.
 
 ```shell
@@ -357,7 +458,7 @@ Output
 ```
 
 ---
-### Loop Control Statements
+#### Loop Control Statements
 #### 1. break Statement
 Used to terminate a loop immediately.
 
@@ -372,11 +473,11 @@ for(i in 1:10) {
 
 Output 
 ```shell
-for(i in 1:10) {
-    if(i == 6)
-        break
-    print(i)
-}
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
 ```
 
 ---

@@ -39,32 +39,51 @@ Software engineering is application of engineering principals to design, build, 
 - Maintenance – Update, improve, and fix the software after deployment.
 ---
 ### Software Application Domains
-Refer to the various fields or are in which software is developed and used to perform specific tasks.
+Software application domains are specific industry fields, technological areas where software is utilised to solve problem.
+
+Software application domains are classified into:
+1. Broad Technical Domain
+2. Industry-Specific Domain
 
 **Types of Software Application Domains :** 
-1. System Software
-    - Software that manages and control computer hardware and provide a platform for other software. 
-    - Ex : Microsoft Windows, Linux, Compilers
-2. Business/Application Software 
-    - Software used to support business activities and operations.
-    - Ex : Payroll System, Inventory Management Systems, Accounting Software 
-3. Engineering & Scientific Software
-    - Software used for scientific calculations, and engineering design.
-    - Ex : CAD (Computer-Aided Design), Weather Forecasting Systems, Simulation Software 
-4. Embedded Software
-    - Software build into hardware devices to control their operation.
-    - Ex : Washing Machine, Microwave Ovens, Automobile Control Systems
-5. Web Application 
-    - Software that runs on web servers and is accessed through web browsers.
-    - Ex : Online Shopping Websites, Online Banking Systems, Social Networking Sites
-6. Artificial Intelligence Software 
-    - Software that mimics human intelligence and decision-making.
-    - Ex : Expert Systems, Chatbots, Machine Learning Applications
-7. Real-Time Software 
-    - Software that monitors and responds to events within a specified time.
-    - Ex : Air Traffic Control Systems, Medical Monitoring Systems
-    
+1. Broad Technical Domain
+    These are general-purpose software categories used across multiple industries.
 
+    A. System & Utility Software
+    - System and utility software manage, maintain, and improve the performance of a computer system.
+    - ex : Windows Operating System, Antivirus Software, Disk Cleanup, Backup Software.
+
+    B. Embedded & Real-Time Software
+    - Embedded software is built into hardware devices, while real-time software responds to events within a fixed time limit.
+    - ex : ATM Machine, Car Airbag System, Smart Watch, Microwave Oven, Traffic Signal Controller, File Compression (7-Zip).
+
+    C. Scientific & Engineering Software
+    - Software used for scientific research, engineering design, simulations, and complex mathematical calculations.
+    - ex : MATLAB, AutoCAD, ANSYS, SPSS
+
+    D. AI & Data-Driven Software
+    - Software that uses Artificial Intelligence (AI) and Data Analytics to learn from data and make intelligent decisions.
+    - ex : ChatGPT, Google Assistant, Netflix Recommendation System, Face Recognition, Self-driving Cars.
+---
+
+2. Industry-Specific Domain
+    These are software applications developed for a particular industry.
+    
+    A. Business Software
+    - Software used to manage business operations and improve productivity.
+    - ex : ERP, CRM, Payroll System, Inventory Management, Billing Software
+
+    B. Medical & Healthcare Software
+    - Software used in hospitals and healthcare organizations to manage patients and medical services.
+    - Hospital Management System, Electronic Health Records (EHR), Telemedicine Apps, Appointment Booking System
+
+    C. Finance Software
+    - Software used for banking, accounting, investments, and financial transactions.
+    - ex : Internet Banking, Google Pay, PhonePe, Tally, Stock Trading Apps
+
+    D. Social Media Software
+    - Software that enables people to communicate, share content, and connect online.
+    - ex : WhatsApp, Instagram, Facebook, X (Twitter), LinkedIn
 ---
 
 ### Software Engineering Layers
