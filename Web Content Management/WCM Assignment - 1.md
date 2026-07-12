@@ -1,5 +1,5 @@
 # WCM Assignment 1
-### 2M 
+### 2 Marks 
 1. Define WCM
     Web content management (WCM) is the process of organizing, storing, updating, publishing, and maintaining website content. It ensures the content remains accurate, relevant, and upto date.
 <Br>
@@ -28,28 +28,46 @@
     Web publishing is the process of creating, uploading, and maintaining web content on the internet so that it can be accessed by users through a web browser.
 
 ---
-### 5M
+### 5 Marks 
 1. Explain WCMA in details
-    A Web Content Management System (WCMS) is a software application that allows users to create, edit, organize, publish, and manage website content without requiring advanced programming knowledge
+    - A WCMS is a software application that allows users to create, edit, organize, publish and manage website content without requiring advanced programming knowledge.
+    - It enables multiple user to maintain website content through a user friendly interface.
+<br>
+    - Need for WCMS
+        - To create websites without coding.
+        - To update website content easily.
+        - To manage large amounts of digital content.
+        - To support teamwork and collaboration.
+        - To improve website security and maintenance
+<br>
+    - Features of WCMS 
+        - 
     
+---
 
 2. Explain content types & Content Formats 
 
+---
 
 3. Explain steps to create digital graphics 
 
+---
 
 4. Explain audio production techniques 
 
+---
 
 5. Explain features, advantages, disadvantage.
 
+---
 
 6. Explain key steps involve inthe process of WCD & WCM
 
+---
 
 7. Explain norms & guidline 
 
+---
 
 8. Explain benefits of WCMS
 

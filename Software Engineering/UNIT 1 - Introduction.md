@@ -104,23 +104,38 @@ Software Engineering Layers provide a structured framework for software developm
 
 1. Quality Focus (Foundation Layer)
     - It is the foundation of software engineering.
-    - Emphasizes continuous improvement in software quality.
-    - Ensures that the software meets customer requirements and standards.
+    - It ensures that the software is reliable, efficient, secure, and meets customer requirements
+    - Example : Testing an online banking application to ensure transactions are accurate and secure.
 2. Process Layer
-    - Acts as the framework for software development.
-    - Define activities, tasks, and milestones.
-    - Helps manage and control software projects effectively.
+    - A Software Process is a framework of activities followed to develop, test, deliver, and maintain software.
+
+    a. Communication
+    - Communication is the interaction between customers, users, and developers to understand software requirements.
+    - Example Discussing features required for an online shopping website.
+
+    b. Planning
+    - Planning defines the project schedule, cost, resources, and risks before development begins.
+    - Example Preparing a project timeline for developing a mobile app.
+
+    c. Construction
+    - Construction is the phase where software is coded and tested.
+    - Example Writing Java or Python code for an e-commerce application.
+
+    d. Deployment
+    - Deployment is the process of delivering the completed software to users and providing maintenance.
+    - Example Publishing an Android app on the Google Play Store.
+
 3. Methods Layer
-    -  Provides technical procedure for building software.
-    - Includes requirements analysis, design, coding, testing, and maintenance.
+    -  Methods are the technical procedures and guidelines used to design, develop, and test software.
     - Specifies how software should be developed.
+    - Example : Using Object-Oriented Programming (OOP) and UML diagrams to design software.
 4. Tools Layer
-    -  Provides automated or semi-automated support for the process and methods.
+    -  Tools are software applications that support and automate software development activities.
     - Helps improve productivity and accuracy.
     - Example : 
-          - IDEs ( Integrated )
+          - IDEs such as vscode, eclipse etc.
           - Testing Tools
-          - Version Control Tools
+          - Version Control Tools such as git/github
 
 ---
 

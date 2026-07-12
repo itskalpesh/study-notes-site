@@ -8,10 +8,6 @@ Examples: Text, images, videos, audio, graphics, animations, documents, and hype
 ### Web Content Development 
 Web content development is the process of planning, creating, editing, and publishing content such as text, images, audio, and videos for a website.
 
----
-### Web Content Management
-Web content management (WCM) is the process of organizing, storing, updating, publishing, and maintaining website content. It ensures the content remains accurate, relevant, and upto date.
-
 #### Key Points 
 1. Understanding Web Content
     - Meaning of web content.
@@ -56,6 +52,10 @@ Web content management (WCM) is the process of organizing, storing, updating, pu
     - Augmented Reality (AR) and Virtual Reality (VR).
     - Mobile-first design.
     - Chatbots and automation.
+
+---
+### Web Content Management
+Web content management (WCM) is the process of organizing, storing, updating, publishing, and maintaining website content. It ensures the content remains accurate, relevant, and upto date
 
 ---
 ### Features of WCM
@@ -166,7 +166,50 @@ Web content management (WCM) is the process of organizing, storing, updating, pu
 
 **10. Data Loss Risk**
 - Improper backups or system failures may result in data loss.
+---
+### Web Content Management System ( WCMS)
+A WCMS is a software application that allows users to create, edit, organize, publish and manage website content without requiring advanced programming knowledge.
 
+It enables multiple user to maintain website content through a user friendly interface.
+
+#### Need for WCMS
+- To create websites without coding.
+- To update website content easily.
+- To manage large amounts of digital content.
+- To support teamwork and collaboration.
+- To improve website security and maintenance.
+
+#### Features of WCMS
+1. Content Creation and Editing: 
+    - CMS platforms provide user-friendly interfaces for creating, editing, and formatting content. 
+    - Users can easily add text, images, videos, and other multimedia elements.
+
+2. Content Publishing:
+    - CMS platforms offer Publish content instantly or schedule for later.
+    - Example: Scheduling a news article to publish at 9:00 AM.
+
+3. Version Control: 
+    - CMS allows users to track changes made to content overtime. 
+    - Allows restoration of previous versions when required & prevents accidental data loss.
+    - Supports collaboration.
+    - Example: Restoring an older version of a webpage after an editing mistake.
+
+4. User Roles and Permissions: 
+    - CMS provide control user access by assigning different roles and permissions.
+    - This prevents unauthorized access and Improves security.
+
+5. Media Management
+    - Allows to store and manage images, videos, documents, and other assets used in content creation. 
+    - It often includes features for resizing, cropping, and optimizing media.
+    - Example: Uploading product images to an online shopping website.
+
+6. Workflow Management
+
+7. Search Functionality
+
+8. Backup and Recovery
+
+9. Security
 ---
 ### Content Types
 Content types are the different kinds of information published on a website to communicate with users.
@@ -209,6 +252,8 @@ Content formats are the file types used to store or display content.
 9. Thought Leadership Content
 - Shares expert opinions and industry knowledge.
 - Examples: Expert blogs, research articles, case studies, white papers.
+---
+
 
 ---
 |**Content Types**|**Content Formats**|

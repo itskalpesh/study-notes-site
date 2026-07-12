@@ -1,6 +1,6 @@
 # Syllabus
 
-[[study-notes-site/Software Engineering/UNIT 1 - Introduction]]
+[[UNIT 1 - Introduction]]
 
 Introduction to Software Engineering : Defining software, Software Application Domains, Software Engineering Layers, Software Myths. Process Models : The Waterfall Model, Incremental process model, Evolutionary Process Model - Prototyping and The Spiral model.
 
