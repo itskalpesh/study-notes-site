@@ -46,7 +46,24 @@
     1. Content Creation and Editing: 
     - CMS platforms provide user-friendly interfaces for creating, editing, and formatting content. 
     - Users can easily add text, images, videos, and other multimedia elements
-    
+    2. Content Publishing:
+    - CMS platforms offer Publish content instantly or schedule for later.
+    - Example: Scheduling a news article to publish at 9:00 AM.
+    3. Version Control:
+    - CMS allows users to track changes made to content overtime.
+    - Allows restoration of previous versions when required & prevents accidental data loss.
+    - Supports collaboration.
+    - Example: Restoring an older version of a webpage after an editing mistake.
+    4. User Roles and Permissions:
+    - CMS provide control user access by assigning different roles and permissions.
+    - This prevents unauthorized access and Improves security.
+    5. Media Management
+    - Allows to store and manage images, videos, documents, and other assets used in content creation.
+    - It often includes features for resizing, cropping, and optimizing media.
+    - Example: Uploading product images to an online shopping website.
+    5. Workflow Management
+    6. Search Functionality
+   
 ---
 
 2. Explain content types & Content Formats 
