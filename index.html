@@ -6,12 +6,17 @@
 <title>Study Notes</title>
 <meta name="description" content="A documentation-style site generated automatically from an Obsidian Markdown vault." />
 
+<link rel="manifest" href="manifest.json" />
+
 <!-- Inline SVG favicon: an open notebook mark, tinted to match the accent color -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231B1E24'/%3E%3Cpath d='M6 9c4-2 7-2 10 0v16c-3-2-6-2-10 0V9Z' fill='none' stroke='%23F2B84B' stroke-width='1.8' stroke-linejoin='round'/%3E%3Cpath d='M26 9c-4-2-7-2-10 0v16c3-2 6-2 10 0V9Z' fill='none' stroke='%23F2B84B' stroke-width='1.8' stroke-linejoin='round'/%3E%3C/svg%3E" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet" />
+
+<!-- KaTeX Math Styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" />
 
 <link rel="stylesheet" href="style.css" />
 </head>
@@ -36,6 +41,25 @@
       <span class="brand-text">Study Notes</span>
     </a>
 
+    <nav class="top-nav-links" aria-label="Main Navigation">
+      <a href="#/" class="top-nav-link" id="navHome">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        <span>Notes</span>
+      </a>
+      <a href="#/quiz" class="top-nav-link" id="navQuiz">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        <span>Quizzes</span>
+      </a>
+      <a href="#/flashcards" class="top-nav-link" id="navFlashcards">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 3H8"/></svg>
+        <span>Flashcards</span>
+      </a>
+      <a href="#/chat" class="top-nav-link" id="navChat">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8"/><path d="M8 13h6"/></svg>
+        <span>Ask AI</span>
+      </a>
+    </nav>
+
     <button id="searchTrigger" class="search-trigger" aria-haspopup="dialog">
       <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
       <span class="search-trigger-label">Search notes…</span>
@@ -53,6 +77,11 @@
   <div id="sidebarBackdrop" class="sidebar-backdrop"></div>
 
   <aside id="sidebar" class="sidebar" aria-label="Notes navigation">
+    <div class="sidebar-filter-wrap">
+      <svg class="sidebar-filter-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="sidebarFilter" type="text" class="sidebar-filter-input" placeholder="Quick filter notes…" aria-label="Filter notes tree" autocomplete="off" spellcheck="false" />
+      <button id="sidebarFilterClear" class="sidebar-filter-clear" aria-label="Clear filter" hidden>&times;</button>
+    </div>
     <div class="sidebar-scroll">
       <nav id="sidebarTree" class="sidebar-tree" aria-label="Subjects">
         <div class="sidebar-loading">Loading notes…</div>
@@ -89,6 +118,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/16.3.0/lib/marked.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.4.8/purify.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+<!-- KaTeX Math JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+<!-- Mermaid Diagrams JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js"></script>
 <script src="script.js" defer></script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  });
+}
+</script>
 </body>
+</html>
 </html>

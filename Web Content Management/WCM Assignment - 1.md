@@ -256,17 +256,190 @@
 
 ---
 
-5. Explain features, advantages, disadvantage.
+5. Explain advantages, disadvantage of WCMS.
+	 Advantages of WCM
+	**1. Easy Content Creation**
+	- Users can create web pages without advanced programming skills.
+
+	**2. Easy Content Editing**
+	- Website content can be modified and updated quickly.
+
+	**3. Easy Content Publishing**
+	- Content can be published immediately or scheduled for later.
+
+	**4. Better Content Organization**
+	- Organizes text, images, videos, and documents systematically.
+
+	**5. Supports Collaboration**
+	- Multiple users can work together on the same website.
+
+	**6. Version Control**
+	- Maintains a history of changes and restores previous versions.
+
+	**7. Improved Security**
+	- Provides authentication, user roles, and access permissions.
+
+	**8. Media Management**
+	- Stores and manages multimedia files efficiently.
+
+	 **9. Saves Time and Cost**
+	- Reduces website maintenance time and development cost.
+
+	**10. Better User Experience**
+	- Keeps content accurate, updated, and easy to navigate.
+
+---
+ Disadvantages of WCM
+	1. High Initial Setup Cost
+-  Installing and configuring a WCM system may be expensive
+
+	**2. Learning Curve**
+- Beginners require training to use the system effectively.
+
+	**3. Regular Maintenance**
+- Requires frequent updates of software, plugins, and themes.
+
+	**4. Security Risks**
+- Outdated systems are vulnerable to hacking and malware attacks.
+
+	**5. Performance Issues**
+- Excessive plugins or large media files can slow down the website.
+
+	**6. Compatibility Problems**
+- Some themes, plugins, or extensions may conflict with each other.
+
+	**7. Limited Customization**
+- Pre-built templates may not meet all business requirements.
+
+	**8. Internet Dependency**
+- Most WCM systems require an internet connection for online management.
+
+	**9. Plugin Dependency**
+- Many advanced features depend on third-party plugins, which may become outdated or unsupported.
+
+	**10. Data Loss Risk**
+- Improper backups or system failures may result in data loss.
 
 ---
 
-6. Explain key steps involve inthe process of WCD & WCM
-
+6. Explain key steps involve in the process of WCD & WCM
+-  Web Content Development the process of planning, creating, designing, and organizing content for a website.
+- Key Steps in WCD
+	- Planning
+	- Content Creation
+	- Content Organization
+	- Website Design
+	- Testing
+	- Publishing
+- Web Content Management the process of managing, updating, publishing and maintaining website content using a web content management system (WCMS).
+- Key Steps in WCMS
+	- Content Creation
+	- Content editing
+	- Content Storage
+	- Workflow & Approval
+	- Publishing
+	- Maintenance
 ---
 
-7. Explain norms & guidline 
+7. Explain norms & guideline 
+	Norms and Guidelines for Content Development are the best practices followed to create content that is clear, useful, engaging, and effective for the target audience.
 
+	1. Understand the Audience
+    - Identify the target audience (students, customers, professionals, etc.).
+    - Know their age, interests, knowledge level, and needs.
+    - Create content that matches their expectations.
+    - Example: Use simple language for school students and technical terms for professionals.
+
+	2. Set Clear Objectives    
+    - Define the purpose of the content before writing.
+    - Decide whether the content is meant to inform, educate, entertain, or persuade.
+    - Keep the content focused on the objective.
+    - Example: A tutorial aims to teach, while an advertisement aims to promote a product.
+    
+	3. Structured and Organized Content
+    - Arrange information in a logical sequence.
+    - Use headings, subheadings, paragraphs, bullet points, and numbering.
+    - Make the content easy to read and navigate.
+
+	4. Clarity and Simplicity
+    - Use simple, easy-to-understand language.
+    - Avoid unnecessary technical jargon and lengthy sentences.
+    - Write concise and meaningful content.
+
+	5. Research
+    - Collect information from reliable and trusted sources.
+    - Verify facts, figures, and statistics.
+    - Ensure the content is accurate and up to date.
+
+	6. Engaging Headings
+    7. Visual Elements
+    8. Quality Over Quantity
+    9. Consistency
+    10. Feedback and Improvement
+    11. Promotion and Distribution
 ---
 
 8. Explain benefits of WCMS
+	A Web Content Management System (WCMS) is software that helps users create, edit, organize, manage, and publish website content without requiring extensive programming knowledge.
 
+	Benefits of WCMS
+
+	1. Easy Content Management
+	Users can easily create, edit, update, and delete website content.
+	No advanced programming skills are required.
+	Example: A school updates exam schedules without hiring a web developer.
+	
+	2. User-Friendly Interface
+	Provides a simple dashboard with menus and editing tools.
+	Easy for beginners to learn and use.
+	Example: An administrator edits a webpage using a visual editor.
+
+	3. Faster Website Development
+	Offers ready-made templates, themes, and plugins.
+	Reduces website development time.
+	Example: A business launches its website in a few days using WordPress.
+
+	4. Multi-User Collaboration
+	Multiple users can work on the website simultaneously.
+	Different roles (Admin, Editor, Author, Contributor) improve teamwork.
+	Example: Writers create articles while editors review and publish them.
+
+	5. Cost-Effective
+	Many WCMS platforms are free and open-source.
+	Reduces development and maintenance costs.
+	Example: A small business uses Joomla instead of building a website from scratch.
+
+	6. Easy Customization
+	Themes and plugins allow websites to be customized easily.
+	New features can be added without major coding.
+	Example: Adding an online contact form using a plugin.
+
+	7. SEO (Search Engine Optimization)
+	Built-in SEO tools improve search engine rankings.
+	Helps attract more website visitors.
+	Example: Adding SEO-friendly page titles and meta descriptions.
+
+	8. Security Features
+	Provides user authentication, access control, and security updates.
+	Security plugins help protect websites from cyber threats.
+	Example: Installing a firewall plugin to protect the website.
+	
+	9. Responsive Design
+	Most WCMS themes are mobile-friendly.
+	Websites work well on desktops, tablets, and smartphones.
+	Example: A shopping website adjusts automatically to a mobile screen.
+
+	10. Backup and Recovery
+	Supports automatic backups and data recovery.
+	Helps restore the website if data is lost.
+	Example: Recovering the website after accidental deletion of files.
+
+	11. Content Scheduling
+	Content can be scheduled for automatic publishing.
+	Saves time and improves content planning.
+	Example: Scheduling a blog post to be published next Monday.
+
+	12. Easy Maintenance
+	Content, themes, and plugins can be updated quickly.
+	Keeps the website current and secure.
+	Example: Updating product information during a sale.
