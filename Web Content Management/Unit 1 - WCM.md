@@ -265,4 +265,57 @@ Content formats are the file types used to store or display content.
 |Used to organize and classify website content.|Used to ensure compatibility and proper display on different devices.|
 
 ---
+### Norms and Guidelines of content development 
+Norms and Guidelines for Content Development are the best practices followed to create content that is clear, useful, engaging, and effective for the target audience.
 
+1. Understand the Audience
+    - Identify the target audience (students, customers, professionals, etc.).
+    - Know their age, interests, knowledge level, and needs.
+    - Create content that matches their expectations.
+    - Example: Use simple language for school students and technical terms for professionals.
+
+2. Set Clear Objectives
+    - Define the purpose of the content before writing.
+    - Decide whether the content is meant to inform, educate, entertain, or persuade.
+    - Keep the content focused on the objective.
+    - Example: A tutorial aims to teach, while an advertisement aims to promote a product.
+
+3. Structured and Organized Content
+    - Arrange information in a logical sequence.
+    - Use headings, subheadings, paragraphs, bullet points, and numbering.
+    - Make the content easy to read and navigate.
+
+4. Clarity and Simplicity
+    - Use simple, easy-to-understand language.
+    - Avoid unnecessary technical jargon and lengthy sentences.
+    - Write concise and meaningful content.
+
+5. Research
+    - Collect information from reliable and trusted sources.
+    - Verify facts, figures, and statistics.
+    - Ensure the content is accurate and up to date.
+
+6. Engaging Headings
+
+
+7. Visual Elements
+
+
+8. Quality Over Quantity
+
+
+9. Consistency
+
+
+10. Feedback and Improvement
+
+
+11. Promotion and Distribution
+
+
+---
+### Creating Digital Graphics 
+
+
+---
+### Audio Product and Editing 

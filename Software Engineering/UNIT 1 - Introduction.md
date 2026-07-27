@@ -150,14 +150,14 @@ Software Myths are false beliefs or misconceptions about software development th
     - Myth: Changes can be made easily at any time.
         - Reality: Requirement changes often increase cost and development time.
 
-1. **Management Myths**
+2. **Management Myths**
 - Misconceptions held by managers.
 - Examples:
     - Myth: Existing standards and procedures are sufficient to develop software.
         - Reality: Effective management and continuous monitoring are also required.
      - Myth: If a project is behind schedule, adding more programmers will speed it up.
         - Reality: New team members require training and coordination, which may further delay the project.
-2. Practitioner (Developer) Myths
+3. Practitioner (Developer) Myths
 - Misconceptions held by software developers.
 - Examples:
     - Myth: Once the program works, the job is finished.
@@ -172,6 +172,19 @@ Software Myths are false beliefs or misconceptions about software development th
 - Poor software quality
 - Communication problems
 - More programmers can solve schedule delays.
+
+
+| Type       | Myths                                                               | Reality                                                      | Example                                                                                 |
+| ---------- | ------------------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
+| Customer   | General objectives are enough.                                      | Detailed requirements are necessary.                         | Customer says, "Build an online shopping website" without giving complete requirements. |
+| Customer   | Changes can made easily at anytime.                                 | Changes increase cost and time.                              | Customer requests online payment after the software is completed.                       |
+| Management | Existing standards and produres are sufficient to develop software. | Planning, testing, and management are also required.         | Manager hires more programmers to finish a delayed project quickly.                     |
+| Management | More programmers reduce delays.                                     | New team members need training, which may delay the project. | Company buys expensive tools expecting them to solve all problems.                      |
+| Developer  | Once the program works, the job is finished.                        | Testing, documentation, and maintenance are still required.  | Developer thinks the project is finished after the program runs.                        |
+| Developer  | Quality is checked only after coding.                               | Quality should be checked throughout development.            | Developer checks software quality only after coding is completed.                       |
+
+
+
 ---
 
 ## Process Models
