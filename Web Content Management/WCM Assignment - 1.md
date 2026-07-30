@@ -1,4 +1,5 @@
 # WCM Assignment 1
+
 ### 2 Marks 
 1. Define WCM 
 - Web content management (WCM) is the process of organizing, storing, updating, publishing, and maintaining website content. It ensures the content remains accurate, relevant, and upto date.
@@ -379,7 +380,7 @@
     11. Promotion and Distribution
 ---
 
-8. Explain benefits of WCMS
+8. Explain benefits of WCMS<br>
 	A Web Content Management System (WCMS) is software that helps users create, edit, organize, manage, and publish website content without requiring extensive programming knowledge.
 
 	Benefits of WCMS
