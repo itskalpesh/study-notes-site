@@ -381,7 +381,7 @@
 ---
 
 8. Explain benefits of WCMS
-	A Web Content Management System (WCMS) is software that helps users create, edit, organize, manage, and publish website content without requiring extensive programming knowledge.
+A Web Content Management System (WCMS) is software that helps users create, edit, organize, manage, and publish website content without requiring extensive programming knowledge.
 
 	Benefits of WCMS
 
