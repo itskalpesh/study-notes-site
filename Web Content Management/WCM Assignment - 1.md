@@ -326,20 +326,48 @@
 6. Explain key steps involve in the process of WCD & WCM
 -  Web Content Development the process of planning, creating, designing, and organizing content for a website.
 - Key Steps in WCD
-	- Planning
-	- Content Creation
-	- Content Organization
-	- Website Design
-	- Testing
-	- Publishing
+	1. Develop a Content Strategy 
+	- The first step is to define the target audience, website objectives, and the type of content required. A good content strategy ensures that the content meets user needs and business goals.
+	- Example: A college website plans content for admissions, courses, and examination updates.
+
+	2. Content Creation
+	- Create high-quality content such as articles, blogs, images, videos, graphics, and interactive features. The content should be informative, engaging, and relevant.
+	- Example: Writing a blog about digital marketing or designing a product page.
+	
+	3. Search Engine Optimization (SEO
+	- Optimize the content using keywords, meta descriptions, headings, and backlinks so that it ranks higher in search engine results and attracts more visitors.
+	- Example: Using the keyword "Best Engineering Colleges in Karnataka" in a college website.
+	
+	4. Use a Content Management System (CMS)
+	- Use CMS software such as WordPress, Joomla, or Drupal to create, edit, organize, and publish website content easily without extensive programming knowledge.
+	- Example: Updating a company's website using WordPress.
+
+	5. Publish and Maintain Content
+	- Publish the developed content on the website and regularly update it to keep the information accurate, relevant, and useful for users.
+	- Example: Updating course fees and admission dates every academic year.
+
+---
 - Web Content Management the process of managing, updating, publishing and maintaining website content using a web content management system (WCMS).
 - Key Steps in WCMS
-	- Content Creation
-	- Content editing
-	- Content Storage
-	- Workflow & Approval
-	- Publishing
-	- Maintenance
+	1. Content Editing and Publishing
+	- Edit new and existing content, then publish it to ensure users receive accurate and updated information.
+    - Example: Updating examination schedules on a university website.
+
+    2. Content Governance
+    - Establish rules, approval workflows, version control, and ownership to maintain content quality and consistency.
+    - Example: An editor approves an article before it is published.
+    
+    3. User Experience (UX) Management
+    - Ensure the website is easy to navigate, responsive, accessible, and provides a better experience for all users.
+    - Example: Designing clear menus and readable fonts.
+    
+    4. Performance Monitoring
+    - Monitor website traffic, user engagement, and content performance using analytics. Improve content based on collected data.
+    - Example: Updating a blog after analyzing visitor statistics.
+
+    5. Website Security
+    - Protect website content from unauthorized access, hacking, malware, and data breaches by implementing proper security measures.
+    - Example: Installing SSL certificates and performing regular backups.
 ---
 
 7. Explain norms & guideline 
