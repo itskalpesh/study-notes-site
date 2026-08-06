@@ -99,12 +99,11 @@
     1. Choose a Platform
     - Select a wiki software such as MediaWiki, DokuWiki, Confluence, or Tiki Wiki based on your needs.
     
-    1. Domain and Hosting
+    2. Domain and Hosting
     - Purchase a domain name and web hosting to host the wiki on a server.
     
-    1. Install Wiki Software
+    3. Install Wiki Software
     - Install the selected wiki software using the hosting provider's installer or manual setup.
     
-    1. Configure Settings
+    4. Configure Settings
     - Customize the wiki by setting: User roles and permissions Access controls Theme and appearance Site settings
-    - 
