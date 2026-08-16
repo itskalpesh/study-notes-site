@@ -1,0 +1,40 @@
+.citation {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border-left: 4px solid var(--accent, #0066cc);
+  background-color: var(--callout-bg, rgba(0, 102, 204, 0.05));
+  border-radius: 4px;
+  font-style: italic;
+}
+
+.text {
+  margin: 0 0 1rem 0;
+  color: var(--text-primary, #000);
+  line-height: 1.7;
+}
+
+.footer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #666);
+  font-style: normal;
+}
+
+.author {
+  font-weight: 600;
+}
+
+.date {
+  color: var(--text-tertiary, #999);
+}
+
+.link {
+  color: var(--accent, #0066cc);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+.todo {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  background-color: var(--callout-bg, rgba(0, 102, 204, 0.05));
+  border-left: 4px solid var(--accent, #0066cc);
+  border-radius: 4px;
+}
+
+.icon {
+  flex-shrink: 0;
+  font-weight: bold;
+  color: var(--accent, #0066cc);
+  margin-top: 0.125rem;
+}
+
+.text {
+  flex: 1;
+  color: var(--text-primary, #000);
+  line-height: 1.5;
+}
+
+.completed {
+  opacity: 0.6;
+}
+
+.completed .text {
+  text-decoration: line-through;
+  color: var(--text-secondary, #666);
+}
