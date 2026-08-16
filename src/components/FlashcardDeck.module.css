@@ -1,0 +1,115 @@
+.flashcardContainer {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: var(--card-bg, #f8f9fa);
+  border: 1px solid var(--border-color, #e0e0e0);
+}
+
+.flashcardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.flashcardHeader h3 {
+  margin: 0;
+}
+
+.counter {
+  font-size: 0.875rem;
+  color: var(--text-secondary, #666);
+}
+
+.flashcardScene {
+  perspective: 1000px;
+  margin-bottom: 1.5rem;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flashcard {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  cursor: pointer;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flashcard.flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcardFace {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--accent, #0066cc) 0%, var(--accent-dark, #0052a3) 100%);
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+.flashcard.flipped .flashcardFace:first-child {
+  opacity: 0;
+}
+
+.flashcard.flipped .flashcardFace:last-child {
+  transform: rotateY(180deg);
+}
+
+.label {
+  font-size: 0.875rem;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.flashcardFace p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.controls {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.75rem 1.25rem;
+  background-color: var(--accent, #0066cc);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.btn:hover:not(:disabled) {
+  background-color: var(--accent-dark, #0052a3);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.empty {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-secondary, #666);
+}

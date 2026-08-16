@@ -1,0 +1,123 @@
+.quizContainer {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: var(--card-bg, #f8f9fa);
+  border: 1px solid var(--border-color, #e0e0e0);
+}
+
+.quizHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--border-color, #e0e0e0);
+}
+
+.quizHeader h3 {
+  margin: 0;
+  color: var(--text-primary, #000);
+}
+
+.progress {
+  font-size: 0.875rem;
+  color: var(--text-secondary, #666);
+  background-color: var(--accent-light, rgba(0, 102, 204, 0.1));
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+}
+
+.questionBox {
+  margin: 1.5rem 0;
+}
+
+.questionBox h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: var(--text-primary, #000);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.optionBtn {
+  padding: 1rem;
+  text-align: left;
+  background-color: white;
+  border: 2px solid var(--border-color, #e0e0e0);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 1rem;
+}
+
+.optionBtn:hover:not(:disabled) {
+  border-color: var(--accent, #0066cc);
+  background-color: var(--accent-light, rgba(0, 102, 204, 0.05));
+}
+
+.optionBtn.correct {
+  background-color: rgba(16, 185, 129, 0.1);
+  border-color: #10b981;
+  color: #047857;
+}
+
+.optionBtn.incorrect {
+  background-color: rgba(239, 68, 68, 0.1);
+  border-color: #ef4444;
+  color: #991b1b;
+}
+
+.optionBtn:disabled {
+  cursor: not-allowed;
+}
+
+.explanation {
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.correctExp {
+  background-color: rgba(16, 185, 129, 0.1);
+  border-left: 4px solid #10b981;
+  color: #047857;
+}
+
+.incorrectExp {
+  background-color: rgba(239, 68, 68, 0.1);
+  border-left: 4px solid #ef4444;
+  color: #991b1b;
+}
+
+.nextBtn {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--accent, #0066cc);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.nextBtn:hover {
+  background-color: var(--accent-dark, #0052a3);
+}
+
+.loading,
+.empty {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-secondary, #666);
+  background-color: var(--card-bg, #f8f9fa);
+  border-radius: 8px;
+  border: 1px solid var(--border-color, #e0e0e0);
+}
